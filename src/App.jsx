@@ -9,7 +9,7 @@ function App() {
 
     const handleCalculate = (value) => {
         setAmount(value);
-        const vatAmount = value / vat;
+        const vatAmount = (value * vat) / 100;
         const totalAmount = vatAmount + Number(value);
         setTotalAmount(totalAmount);
         setVatAmount(vatAmount);
