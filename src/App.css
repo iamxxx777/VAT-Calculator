@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #12CD7D 85%, #1AE58E 100%);
+    color: #FCFDFC;
+    padding: 3rem 1.5rem;
+}
+
+.wrapper {
+    max-width: 512px;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper h1 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.inputs {
+    margin-bottom: 5rem;
+}
+
+.input-div, .aside {
+    position: relative;
+    width: 100%;
+    border-bottom: solid 1px #CFE6DC;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    height: 48px;
+}
+
+.input-div span,
+.aside span {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #CFE6DC;
+    position: absolute;
+    top: 0.25rem;
+    left: 0;
+}
+
+.input-div input,
+.aside input {
+    padding-left: 6rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1.25rem;
+    background-color: transparent;
+    color: inherit;
+}
+
+.vat-result {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.aside {
+    width: 100%;
+    max-width: 400px;
+}
+
+.aside input {
+    padding-left: 10rem;
+}
